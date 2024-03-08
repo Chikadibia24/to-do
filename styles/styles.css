@@ -12,7 +12,7 @@ body{
   width: 60%;
   height: 90%;
   padding: 15px;
-  background-color:rgb(0, 30, 16);
+  background-color:rgba(0, 30, 16, 0.1);
   margin-top: 100px;border-radius: 10px;
 }
 
@@ -21,7 +21,7 @@ body{
   flex-direction: column;
   padding: 20px;
   align-items: center;
-  background-color:azure;
+  background-color:rgba(240, 255, 255, 0.8);
   width: 50%;
   height: 100%;
   border-radius: 10px;
@@ -30,8 +30,8 @@ body{
   .sub-container-2{
     padding: 20px;
     align-items: center;
-    background-color:azure;
-    width: 50%;
+    background-color:rgba(240, 255, 255, 0.8);
+    width: fit-content;
     height: 100%;
     border-radius: 10px;
   }
